@@ -1,7 +1,7 @@
 import { ADD_ONE, APPLY_NUMBER, CHANGE_OPERATION,CLEAR_DISPLAY, STORE_MEMORY,MEMORY_TOTAL,MEMORY_RESET } from './../actions';
 
 export const initialState = {
-  total: 0,
+  total:0,
   operation: "+",
   memory: 0
 }
